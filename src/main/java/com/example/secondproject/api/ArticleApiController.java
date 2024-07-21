@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Slf4j // 로그를 찍을 수 있게 어노테이션 추가
+@Slf4j // 로그를 찍을 수 있게 어노테이션 추가추가
 @RestController // REST API용 컨트롤러 선언
 public class ArticleApiController {
     @Autowired
